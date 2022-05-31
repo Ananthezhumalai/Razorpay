@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 60%;
+  margin: auto;
+}
+
+.cart_box img {
+  width: 150px;
+  height: 150px;
+}
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover {
+  background-color: rgb(5, 7, 7);
+}
+.cart_box div:nth-child(3) span {
+  background-color: rgb(3, 112, 176);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+  font-size: 2rem;
+  color: rgb(8, 18, 21);
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.cards{
+
+ margin-top: -30px;
+}
+ .cart {
+  visibility: visible;
+}
+
+.cart:visited  {
+  visibility: none;
+}
+#i1{
+  
+  size:"4"
+}
+.gpay{
+  margin-left:550px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+#button3{
+  /* background-color: rgb(36, 90, 52); */
+  margin-left: 100px;
+  font-size: 40px;
+  margin-top: -30px;
+  background-image: url("D:\ananth1\shopping\shopping cart1\src\components\hello.jfif");
+  background-size: cover;
+  width: 150px;
+  height: 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  
+}
+#button3:hover {
+  box-shadow: 0 12px 16px 0 rgba(34, 184, 218, 0.664), 0 17px 50px 0 rgba(0,0,0,0.19);
+  
+}
+
+#button3:active {
+  transform: translateY(4px);
+}
